@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.b1{
+    background: #f79f1f;
+}
+footer{
+    clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
+    background: #0652dd;
+    border-top: 2px solid #0652dd;
+    margin-top: 3em;
+    
+}   
+footer .one{
+    padding: 5em;
+    margin-top: 5em;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+footer .one h1{
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+footer .one form{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    position: relative;
+}
+footer .one form input{
+   width: 100%;
+   border-radius: 20px;
+   padding: .8em 10px;
+   border: 2px solid #0652dd;
+   outline: none;
+}
+footer .one form .b1{
+   border-radius: 0 20px 20px 0;
+   position: absolute;
+   top:2px;
+   right: .1rem;
+   border:none;
+   width:20%;
+   padding: .8em 1.5rem;
+   background: #f79f1f ;
+   color: #fff;
+   cursor: pointer;
+   outline: none;
+}
+footer .one h1{
+    color: #fff;
+}
+footer .footers{
+    display: flex;
+    padding: 3rem 0;
+    justify-content: space-evenly;
+    
+}
+footer .footers h2{
+text-transform: uppercase;
+color:#f79f1f;
+}
+footer .footers a{
+    color:#fff;
+    text-decoration: none;
+
+}
+footer .footers a:hover{
+    color: #f79f1f;
+}
+footer .footers ul li{
+    list-style: none;
+    margin-top: .6rem;
+}
+footer h4{
+    padding: .8rem 0;
+    color: #fff;
+    text-align: center;
+    background: #f79f1f;
+}
